@@ -1,5 +1,5 @@
 class MathjaxRailsController < ActionController::Base
-  def giveOutStaticFile
+  def give_out_static_file
     ext = ''
     ext = ".#{params[:format]}" if params[:format]
     filename = params[:uri]+ext
